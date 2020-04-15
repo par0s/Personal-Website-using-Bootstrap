@@ -218,3 +218,13 @@ small{
     }
 
 }
+
+.center-message{
+    text-align: center;
+}
+
+.filler{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+}
