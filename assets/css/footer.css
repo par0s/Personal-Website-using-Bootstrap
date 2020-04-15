@@ -1,0 +1,115 @@
+
+
+.footer-area{
+    background-color: gray;
+    margin-top: 40px;
+}
+
+.myfooter{
+    padding-top: 40px;
+}
+
+@media (max-width:991px){
+    .footer-area .single-footer-widget{
+        margin-bottom: 30px;
+    }
+}
+
+.footer-area .single-footer-widget h4{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-area .single-footer-widget p{
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media(max-width: 1024px){
+    .footer-area .single-footer-widget h4{
+        font-size: 18px
+    }
+}
+
+@media(max-width: 991px){
+    .footer-area .single-footer-widget h4{
+        margin-bottom: 15px;
+    }
+
+    .footer-area .single-footer-widget .btn{
+        margin: 10px;
+    }
+}
+
+.footer-area .single-footer-widget ul{
+    padding-left: 0px;
+}
+.footer-area .single-footer-widget ul li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.footer-area .single-footer-widget ul li a{
+    transition: all 300ms linear 0s;
+    color:white;
+}
+.footer-area .single-footer-widget ul li a:hover{
+    color: green;
+}
+.footer-area .single-footer-widget .form-wrap{
+    margin-top: 5px;
+}
+
+.footer-area .single-footer-widget textarea{
+    height: 50px;
+    border: none;
+    width: 70%;
+    font-weight: 700;
+    background: #ffffff;
+    color: #797979;
+    padding-left: 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footer-area .single-footer-widget .btn{
+    margin-top: 5px;
+}
+
+.footer-area .single-footer-widget .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer-area .single-footer-widget .click-btn{
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 8px 12px;
+}
+.footer-area .footer-bottom{
+    margin-top: 20px;
+}
+
+@media(max-width: 991px){
+    .footer-area .footer-bottom{
+        margin-top: 20px;
+    }
+}
+
+.footer-area .footer-bottom p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-area .footer-bottom .footer-social{
+    text-align: center;
+}
+
+@media(max-width: 991px){
+    .footer-area .footer-bottom .footer-social{
+        text-align: left;
+        margin-top: 30px;
+    }
+}
