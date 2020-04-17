@@ -225,6 +225,9 @@ small{
 
 .filler{
     padding-bottom: 4px;
-    padding-top: 4px;
-    
+    padding-top: 4px;    
+}
+
+.gallery{
+    padding-bottom: 50px;
 }
