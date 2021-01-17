@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+.home-page{
+    background-image: url("https://images.pexels.com/photos/408518/pexels-photo-408518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
 nav{
     font-family: Bebas Neue;
     font-size: 1.4rem;
     color: black;
 }
+
+
+.hamburger{
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
 
 .nav-name{
     color: #222;
@@ -26,11 +42,41 @@ nav{
     flex-direction: column;    
 }
 
+.header a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.index-header a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .header .nav-job{
     letter-spacing: 2px;
+}
+
+.index-link{
+    color: white;
+}
+
+.index-link a{
+    color: white;
 }
 
 .gallery img{
     max-width:100%;
     height:auto;
+    filter: brightness(70%);
+}
+
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
