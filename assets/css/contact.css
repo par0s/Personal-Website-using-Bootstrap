@@ -12,5 +12,13 @@
 
 textarea {
     max-width: 100%; 
-    min-width: 100%;    
+    min-width: 100%;
+}
+
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #fff;
 }
