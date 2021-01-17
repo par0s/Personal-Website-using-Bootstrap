@@ -4,26 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kidus Yoseph</title>
+    <title>Gallery</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://assets.squarespace.com/universal/default-favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.3/cosmo/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background: #16304E; color: white;">
+
+    <nav class="navbar navbar-expand-md">
+
         <div class="header">
             <a class="nav-name" href="index.html">KIDUS YOSEPH</a>
             <h5 class="nav-job mt-0" href="index.html">SOFTWARE ENGINEER</h3>
         </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: black;">
+            <span class="navbar-toggler-icon">   
+                <i class="hamburger fas fa-equals"></i>                
+            </span>
         </button>
 
         <div class="collapse navbar-collapse" id="colNav">
@@ -50,75 +53,69 @@
         </div>
     </nav>
 
-        <div class="cContent container">
-            <div class="row justify-content-center">
-                <div class="col-sm-2">
-                    <h1>Contact</h1>
-                </div>
-            </div>
-            <div class="row justify-content-center myComment">
-                <div  class="center-message">
-                    <p>
-                        I am such an easy guy to talk to. If you have any questions, <br>
-                        would like to offer me a job ,or would love to work on a project together,
-                        I would love to receive your message.
-                    </p>
-                </div>
-            </div>
-            <form>
-                <div class="row justify-content-center">
-                    <div class="col-sm-10">
-                        <label>Name</label>
-                    </div>
-                </div>
-                <div class="form-row justify-content-center">
-                    <div class="form-group col-md-5">
-                        <input type="text" class="form-control" id="inputFirstName4" placeholder="First Name"
-                            pattern="[A-Za-z/d/.]{4,8}" required>
-                        <label for="inputFirstName4"><small></small></label>
-                    </div>
-                    <div class="form-group col-md-5">
-    
-                        <input type="text" class="form-control" id="inputLastName4" placeholder="Last Name"
-                            pattern="[A-Za-z/d/.]{4,8}" required>
-                        <label for="inputLastName4"><small></small></label>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="form-group col-md-10 justify-content-center">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="form-group col-md-10">
-                        <label for="inputSubject">Subject</label>
-                        <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <label for="comment">Message *</label>
-                    </div>
-                </div>
-    
-                <div class="row justify-content-center">
-                    <div class="form-group col-md-10">
-                        <textarea name="comment" id="comment" class="message" cols="130" rows="5"></textarea>
-                    </div>
-                </div>
-    
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <button type="submit" class="btn btn-light myBtn">Submit</button>
-                    </div>
-                </div>
-    
-            </form>
+    <div class="contact-intro container text-center">
+        <div class="display-4">Contact</div>
+        <p class="p-5">I’m always looking to collaborate with new people. If you have a project idea in mind, please don’t hesitate to get in touch. I look forward to hearing from you.</p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+
+    <div class="form-class container">        
+        <!-- form begins here -->
+        <form class="">
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <label>Name</label>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-5">
+                    <input type="text" class="form-control" id="FirstName" placeholder="First Name"
+                        pattern="[A-Za-z/d/.]{4,8}" required>
+                    <label for="FirstName"></label>
+                </div>
+                <div class="form-group col-md-5">
+                    <input type="text" class="form-control" id="LastName" placeholder="Last Name"
+                        pattern="[A-Za-z/d/.]{4,8}" required>
+                    <label for="LastName"><small></small></label>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-md-10 justify-content-center">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-md-10">
+                    <label for="inputSubject">Subject</label>
+                    <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <label for="comment">Message *</label>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="form-group col-md-10">
+                    <textarea name="comment" id="comment" class="message" cols="130" rows="5"></textarea>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <button type="submit" class="btn btn-light myBtn">Submit</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 
 </body>
 

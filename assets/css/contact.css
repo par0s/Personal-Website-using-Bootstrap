@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+
+.contact-intro{
+    font-family: Bebas Neue;
+}
+
+.contact-intro p{
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+textarea {
+    max-width: 100%; 
+    min-width: 100%;    
+}
