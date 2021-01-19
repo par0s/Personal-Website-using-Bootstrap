@@ -79,15 +79,22 @@ nav{
 }
 
 /* decrease the font size of header when collapsing */
-@media only screen and (max-width: 850px) {
-    body{
-        /* background-color: blue; */
+@media only screen and (max-width: 850px) {    
+    nav{
+        background: white;
     }
     .nav-name{
         color: #222;
         font-size: 1.5rem;
     }
+
+    .index-link{
+        color: black;
+    }
     
+    .index-link a{
+        color: black;
+    }    
     .nav-job{
         visibility: hidden;    
     } 
